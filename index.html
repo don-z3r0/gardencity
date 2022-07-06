@@ -1,3 +1,4 @@
+
 <DOCTYPE html>
 <html>
     <head>
@@ -11,38 +12,75 @@
             <div id="logo">Logo Here</div>
             <ul>
                 <li>
-                    <a class="nav-link" href="#">Link 1</a>
+                    <a class="nav-link" href="#hero">Link 1</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#">Link 1</a>
+                    <a class="nav-link" href="#about">Link 2</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#">Link 1</a>
+                    <a class="nav-link" href="#booking">Link 3</a>
                 </li>
             </ul>
         </nav>
         <div id="cointainer">
-            <section class="hero">
+            <div class="hero-div">
+            <section class="hero" id="hero">
                 <h1 id="hero-heading">Heading goes here</h1>
                 <p id="hero-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat est velit egestas dui id ornare arcu odio. Molestie ac feugiat sed lectus vestibulum. Vel elit scelerisque mauris pellentesque. Risus sed vulputate odio ut enim blandit volutpat maecenas.</p>
-                <div class="img-slides">
-                    <div class="slide">
-                        <h2><b>Image 1</b></h2>
-                        <p>Image 1 caption</p>
-                    </div>
-                    <div class="slide">
-                        <h2><b>Image 2</b></h2>
-                        <p>Image 2 caption</p>
-                    </div>
-                    <div class="slide">
-                        <h2><b>Image 3</b></h2>
-                        <p>Image 3 caption</p>
-                    </div>
-                    <button class="slide-button slides-display-left" onclick="plusDivs(-1)">&#10094;</button>
-                    <button class="slide-button slides-display-right" onclick="plusDivs(+1)">&#10095</button>
+                <div id="logo-img">
+                    <img src="https://drive.google.com/uc?export=view&id=195PTq-9pTxsnWn9_y1bfCRhdPXzJ8o9F" width="500px" height="500px">
                 </div>
             </section>
-            <section class="booking">
+            </div>
+            <div class="about-div">
+                <section class="about" id="about">
+                    <h1 id="gal-header">What We Offer</h1>
+                    <div class="CSSgal">
+                    
+                      <!-- Don't wrap targets in parent -->
+                      <s id="s1"></s> 
+                      <s id="s2"></s>
+                      <s id="s3"></s>
+                      <s id="s4"></s>
+                    
+                      <div class="slider">
+                        <div style="background:#5b8;">
+                                <h2>Slide 1</h2>
+                                <p>Image Description Here</p>
+                            </div>
+                        <div style="background:#85b;">
+                                <h2>Slide 2</h2>
+                                <p>Image Description Here</p>
+                            </div>
+                        <div style="background:#e95;">
+                                <h2>Slide 3</h2>
+                                <p>Image Description Here</p>
+                            </div>
+                        <div style="background:#e59;">
+                                <h2>Slide 4</h2>
+                                <p>Image Description Here</p>
+                            </div>
+                      </div>
+                      
+                      <div class="prevNext">
+                        <div><a href="#s4">&lt</a><a href="#s2">&gt</a></div>
+                        <div><a href="#s1">&lt</a><a href="#s3">&gt</a></div>
+                        <div><a href="#s2">&lt</a><a href="#s4">&gt</a></div>
+                        <div><a href="#s3">&lt</a><a href="#s1">&gt</a></div>
+                      </div>
+                    
+                      <div class="bullets">
+                        <a href="#s1">1</a>
+                        <a href="#s2">2</a>
+                        <a href="#s3">3</a>
+                        <a href="#s4">4</a>
+                      </div>
+                    
+                    </div>  
+                </section>
+            </div>
+            <div class="booking-div">
+            <section class="booking" id="booking">
                 <h3 id="booking-heading">Make a Reservation</h3>
                 <label class="booking" for="check-in">Check-In</label>
                 <input class="booking input" name="check-in" type="text" placeholder="Enter reservation number">
@@ -82,6 +120,7 @@
                 </select>
                 <button id="book-btn" class="booking btn">Book Now</button>
             </section>
+            </div>
         </div>
     </body>
 </html>
