@@ -1,0 +1,87 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Garden City Resort</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <nav id="nav-bar">
+            <div id="logo">Logo Here</div>
+            <ul>
+                <li>
+                    <a class="nav-link" href="#">Link 1</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Link 1</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Link 1</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="cointainer">
+            <section class="hero">
+                <h1 id="hero-heading">Heading goes here</h1>
+                <p id="hero-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat est velit egestas dui id ornare arcu odio. Molestie ac feugiat sed lectus vestibulum. Vel elit scelerisque mauris pellentesque. Risus sed vulputate odio ut enim blandit volutpat maecenas.</p>
+                <div class="img-slides">
+                    <div class="slide">
+                        <h2><b>Image 1</b></h2>
+                        <p>Image 1 caption</p>
+                    </div>
+                    <div class="slide">
+                        <h2><b>Image 2</b></h2>
+                        <p>Image 2 caption</p>
+                    </div>
+                    <div class="slide">
+                        <h2><b>Image 3</b></h2>
+                        <p>Image 3 caption</p>
+                    </div>
+                    <button class="slide-button slides-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="slide-button slides-display-right" onclick="plusDivs(+1)">&#10095</button>
+                </div>
+            </section>
+            <section class="booking">
+                <h3 id="booking-heading">Make a Reservation</h3>
+                <label class="booking" for="check-in">Check-In</label>
+                <input class="booking input" name="check-in" type="text" placeholder="Enter reservation number">
+                <label class="booking" for="check-out">Check-Out</label>
+                <input class="booking input" name="check-out" type="text" placeholder="Enter reservation number">
+                <select id="adults" class="booking select" name="adults">
+                    <option value="">Adults</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <select id="children" class="booking select" name="children">
+                    <option value="">Children</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <select id="babies" class="booking select" name="babies">
+                    <option value="">Babies</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <select id="rooms" class="booking select" name="rooms">
+                    <option value="">Rooms</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <button id="book-btn" class="booking btn">Book Now</button>
+            </section>
+        </div>
+    </body>
+</html>
