@@ -250,10 +250,7 @@ li a:hover {
 
 	#nav-bar {
 		z-index: 10;
-		height: 5px;
-		background-color: #4E381C;
-  		color: #D6B41A;
-
+		height: 2rem;
 	}
 
 	.CSSgal {
