@@ -2,6 +2,7 @@
 * {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 html,
@@ -250,7 +251,7 @@ li a:hover {
 
 	#nav-bar {
 		z-index: 10;
-		height: 25px;
+		height: 60px;
 	}
 
 	.CSSgal {
