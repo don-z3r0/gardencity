@@ -236,10 +236,24 @@ li a:hover {
 /* Media Queries */
 
 @media screen  and (max-width: 600px) {
+	#cointainer {
+		margin-top: 0.8rem;
+	}
+
 	ul {
 		display: none;
 	}
+	
+	#logo {
+		width: 100%;
+	}
+
+	#nav-bar {
+		z-index: 1;
+	}
+
 	.CSSgal {
 		width: 100%;
 	}
+
 }
