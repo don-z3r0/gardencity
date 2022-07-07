@@ -239,4 +239,7 @@ li a:hover {
 	ul {
 		display: none;
 	}
+	.CSSgal {
+		width: 100%;
+	}
 }
