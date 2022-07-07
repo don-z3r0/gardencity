@@ -232,3 +232,11 @@ li a:hover {
 .booking {
   padding: 0.2rem;
 }
+
+/* Media Queries */
+
+@media screen  and (max-width: 600px) {
+	ul {
+		display: none;
+	}
+}
